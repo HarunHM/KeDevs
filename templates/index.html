@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="This a group you can ask Flask(Python) Question, get peers to tackle
+                 project with or you hire a flask developer for your project.">
+    <meta name="KeDevs" content="Programming group">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="Flask and Django Ke" content="Python materials" /> <!-- website name -->
+    <meta property="kedevs.com" content="" /> <!-- website link -->
+    <meta property="title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="type" content="article" />
+
+    <!-- Website Title -->
+    <title>#Django and Flask Enthusiast Kenya</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/css/fontawesome-all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/swiper.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html" style="text-decoration: none;">Django & Flask Devs Ke</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#Blog">Blog</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="https://chat.whatsapp.com/C4JppTCGOiPCJdkjAfRpQ6">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-whatsapp fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://twitter.com/KeDevs">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1>Django & Flask Web Framework <br><span id="js-rotating">Enthusiast Group</span></h1>
+                            <p class="p-large">This a group you can ask Flask(Python) Question, get peers to tackle
+                                project with or you hire a flask developer for your project.</p>
+                            <a class="btn-solid-lg page-scroll" href="https://www.djangoproject.com/">Django</a>
+                            <a class="btn-solid-lg page-scroll" href="https://palletsprojects.com/p/flask/">Flask</a>
+                        </div>
+                    </div> <!-- end of col -->
+
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Testimonials which is turned to be mentors section -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="{{ url_for('static', filename='images/emma.jpg') }}" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Being a developer is very amazing being a mentor
+                                               and helping other developers glow there skills  has really help me grow
+                                                my programming skills.</p>
+                                            <p class="testimonial-author">Emma Kawira - Flask </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="{{ url_for('static', filename='images/IMG-20200510-WA0016.jpg') }}" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Having been a DEveloper for 2+ years i have pushed my self out of comfort zone and mentor others to grow  their programming skills #DevC.</p>
+                                            <p class="testimonial-author">Salma Mohamed- Flask</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+                                <!-- Section to add mentors -->
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="{{ url_for('static', filename='images/my_profile.jpg') }}" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">To me peer learning is core there is nothing encouraging that naturing 
+                                                and helping other developers glow there skills. #peer mentor.</p>
+                                            <p class="testimonial-author">Harun Mbaabu -Django</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of testimonials -->
+
+
+    <!-- Statistics -->
+    <div class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Counter -->
+                    <div id="counter">
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="20">1</div>
+                            <p class="counter-info"> Active Members </p>
+                        </div>
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="20">1</div>
+                            <p class="counter-info"> Members project </p>
+                        </div>
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="20">1</div>
+                            <p class="counter-info">Active Projects </p>
+                        </div>
+                        <div class="cell">
+                            <div class="counter-value number-count" data-count="20">1</div>
+                            <p class="counter-info"> Group Mentors </p>
+                        </div>
+                    </div>
+                    <!-- end of counter -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of statistics -->
+
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>About Flask Ke</h4>
+                        <p>This a group you can ask Flask(Python) Question, get peers to tackle project with or you hire
+                            a flask developer for your project.</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Python Documentation <a class="turquoise"
+                                        href="#your-link">www.python.org</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Python Full Stack <a class="turquoise"
+                                        href="#">www.pythonfullstack.com</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Social Media</h4>
+
+                        <span class="fa-stack">
+                            <a href="https://twitter.com/KeDevs">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#github link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://chat.whatsapp.com/C4JppTCGOiPCJdkjAfRpQ6">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-whatsapp fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#slacklink">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-slack fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">2020 Copyright © KeDevs <a href="#">KeDevs</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script> <!-- Bootstrap framework -->
+    <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{{ url_for('static', filename='js/swiper.min.js') }}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.js') }}"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{{ url_for('static', filename='js/morphext.min.js') }}"></script> <!-- Morphtext rotating text in the header -->
+    <script src="{{ url_for('static', filename='js/validator.min.js') }}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script> <!-- Custom scripts -->
+</body>
+
+</html>
